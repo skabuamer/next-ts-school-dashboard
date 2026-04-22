@@ -33,9 +33,7 @@ Modern UI-first architecture
 src/
 
 ├── app/ # Next.js routes (App Router)
-
 │ ├── dashboard/
-
 │ ├── students/
 │ ├── teachers/
 │ └── layout.tsx
