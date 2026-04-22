@@ -31,7 +31,6 @@ Modern UI-first architecture
 ## 📁 Project Structure
 
 src/
-
 ├── app/ # Next.js routes (App Router)
 │ ├── dashboard/
 │ ├── students/
@@ -56,20 +55,23 @@ src/
 This project simulates multi-role access control in a frontend-only environment.
 
 Each sidebar item defines which roles can access it:
-
 visible: ["admin", "teacher", "student", "parent"]
-How it works:
+
+### How it works:
+
 User role is stored in React Context
 Sidebar dynamically filters items based on role
 UI changes instantly via Role Switcher (no backend required)
-🧩 Context Management
+
+### 🧩 Context Management
 
 Global state (user role simulation) is handled via React Context:
 
 Centralized role state
 Easy access across components
 Clean separation from UI and routing logic
-🎛️ Role Switcher (Demo Feature)
+
+### 🎛️ Role Switcher (Demo Feature)
 
 A built-in role switcher allows instant preview of all dashboard views without authentication.
 
