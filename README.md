@@ -1,15 +1,16 @@
-📊 School Management Dashboard (Frontend Only)
+# 📊 School Management Dashboard (Frontend Only)
 
 A modern, role-based school management dashboard UI built with Next.js (App Router) and TypeScript, simulating real-world SaaS behavior for Admin, Teacher, Student, and Parent roles.
 
 This project focuses on scalable frontend architecture, role-based UI rendering, and clean component design.
 
-🚀 Live Demo
+## 🚀 Live Demo
 
-(Add your deployed link here — Vercel/Netlify)
-https://your-project-link.com
+<!-- (Add your deployed link here — Vercel/Netlify)
+https://your-project-link.com -->
 
-🧠 Key Features
+## 🧠 Key Features
+
 👥 Role-based UI (Admin / Teacher / Student / Parent)
 📊 Dynamic sidebar rendering based on user role
 🎛️ Role switcher for instant UI preview (frontend simulation)
@@ -17,14 +18,18 @@ https://your-project-link.com
 ⚡ Next.js App Router structure (modern production pattern)
 🧩 Modular and reusable component architecture
 🎨 Clean, responsive dashboard layout
-🏗️ Tech Stack
+
+## 🏗️ Tech Stack
+
 Next.js (App Router)
 TypeScript
 React Context API
 Recharts (Data Visualization)
-Tailwind CSS / CSS Modules (if used)
+Tailwind CSS / CSS Modules
 Modern UI-first architecture
-📁 Project Structure
+
+## 📁 Project Structure
+
 src/
 ├── app/ # Next.js routes (App Router)
 │ ├── dashboard/
@@ -43,8 +48,9 @@ src/
 ├── data/ # Static config & mock data
 │ └── sidebar.ts
 │
-├── lib/ # Utility functions (optional)
-🔐 Role-Based Architecture
+├── lib/ # Utility functions
+
+## 🔐 Role-Based Architecture
 
 This project simulates multi-role access control in a frontend-only environment.
 
@@ -66,7 +72,7 @@ Clean separation from UI and routing logic
 
 A built-in role switcher allows instant preview of all dashboard views without authentication.
 
-This is designed for:
+## This is designed for:
 
 UI testing
 Demo purposes
@@ -106,5 +112,5 @@ Authentication (NextAuth / JWT)
 Server-side role protection (middleware)
 👨‍💻 Author
 
-Your Name
-Frontend Developer | React & Next.js Enthusiast
+Shaikh Abu Amer
+Frontend Developer
