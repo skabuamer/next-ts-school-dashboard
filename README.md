@@ -96,9 +96,10 @@ Responsive layout system
 ✔ Scalable role-based UI logic
 ✔ Clean separation of concerns
 ✔ Next.js App Router best practices
-🎯 Purpose of This Project
 
-## This project was built to demonstrate:
+## 🎯 Purpose of This Project
+
+### This project was built to demonstrate:
 
 Real-world dashboard UI architecture
 Scalable frontend design patterns
