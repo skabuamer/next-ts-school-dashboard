@@ -114,8 +114,11 @@ Production-like frontend engineering skills
 ## 🛠️ Future Improvements
 
 Backend integration (auth + real role system)
+
 Database-driven dynamic data
+
 API layer for students/teachers
+
 Authentication (NextAuth / JWT)
 Server-side role protection (middleware)
 
