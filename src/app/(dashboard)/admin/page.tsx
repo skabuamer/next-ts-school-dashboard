@@ -1,5 +1,8 @@
+import Announcements from "@/components/Announcements";
 import AttendanceChart from "@/components/AttendanceChart";
 import CountChart from "@/components/CountChart";
+import EventCalender from "@/components/EventCalender";
+import FinanceChart from "@/components/FinanceChart";
 import UserCard from "@/components/UserCard";
 
 const adminPage = () => {
@@ -20,8 +23,14 @@ const adminPage = () => {
 						<AttendanceChart />
 					</div>
 				</div>
+				<div>
+					<FinanceChart isAnimationActive={true} />
+				</div>
 			</div>
-			<div className="w-full lg:w-1/3"></div>
+			<div className="w-full lg:w-1/3 space-y-4">
+				<EventCalender />
+				<Announcements />
+			</div>
 		</div>
 	);
 };

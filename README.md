@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📊 School Management Dashboard (Frontend Only)
 
-## Getting Started
+A modern, role-based school management dashboard UI built with Next.js (App Router) and TypeScript, simulating real-world SaaS behavior for Admin, Teacher, Student, and Parent roles.
 
-First, run the development server:
+This project focuses on scalable frontend architecture, role-based UI rendering, and clean component design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+(Add your deployed link here — Vercel/Netlify)
+https://your-project-link.com
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧠 Key Features
+👥 Role-based UI (Admin / Teacher / Student / Parent)
+📊 Dynamic sidebar rendering based on user role
+🎛️ Role switcher for instant UI preview (frontend simulation)
+📈 Data visualization dashboard (charts, analytics UI)
+⚡ Next.js App Router structure (modern production pattern)
+🧩 Modular and reusable component architecture
+🎨 Clean, responsive dashboard layout
+🏗️ Tech Stack
+Next.js (App Router)
+TypeScript
+React Context API
+Recharts (Data Visualization)
+Tailwind CSS / CSS Modules (if used)
+Modern UI-first architecture
+📁 Project Structure
+src/
+├── app/ # Next.js routes (App Router)
+│ ├── dashboard/
+│ ├── students/
+│ ├── teachers/
+│ └── layout.tsx
+│
+├── components/ # Reusable UI components
+│ ├── Sidebar.tsx
+│ ├── RoleSwitcher.tsx
+│ ├── Charts/
+│
+├── context/ # Global state management
+│ └── RoleContext.tsx
+│
+├── data/ # Static config & mock data
+│ └── sidebar.ts
+│
+├── lib/ # Utility functions (optional)
+🔐 Role-Based Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project simulates multi-role access control in a frontend-only environment.
 
-## Learn More
+Each sidebar item defines which roles can access it:
 
-To learn more about Next.js, take a look at the following resources:
+visible: ["admin", "teacher", "student", "parent"]
+How it works:
+User role is stored in React Context
+Sidebar dynamically filters items based on role
+UI changes instantly via Role Switcher (no backend required)
+🧩 Context Management
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Global state (user role simulation) is handled via React Context:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Centralized role state
+Easy access across components
+Clean separation from UI and routing logic
+🎛️ Role Switcher (Demo Feature)
 
-## Deploy on Vercel
+A built-in role switcher allows instant preview of all dashboard views without authentication.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This is designed for:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+UI testing
+Demo purposes
+Portfolio presentation
+📊 Dashboard UI
+
+Includes sample UI components for:
+
+Attendance analytics
+Income vs expense charts
+Student/teacher management views
+Responsive layout system
+📌 Architecture Highlights
+✔ Modular folder structure (production-style)
+✔ Config-driven sidebar system
+✔ Scalable role-based UI logic
+✔ Clean separation of concerns
+✔ Next.js App Router best practices
+🎯 Purpose of This Project
+
+This project was built to demonstrate:
+
+Real-world dashboard UI architecture
+Scalable frontend design patterns
+Role-based interface simulation
+Clean Next.js project structuring
+Production-like frontend engineering skills
+📷 Screenshots
+
+(Add screenshots here)
+
+🛠️ Future Improvements
+Backend integration (auth + real role system)
+Database-driven dynamic data
+API layer for students/teachers
+Authentication (NextAuth / JWT)
+Server-side role protection (middleware)
+👨‍💻 Author
+
+Your Name
+Frontend Developer | React & Next.js Enthusiast
