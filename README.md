@@ -31,8 +31,11 @@ Modern UI-first architecture
 ## 📁 Project Structure
 
 src/
+
 ├── app/ # Next.js routes (App Router)
+
 │ ├── dashboard/
+
 │ ├── students/
 │ ├── teachers/
 │ └── layout.tsx
@@ -85,7 +88,9 @@ Attendance analytics
 Income vs expense charts
 Student/teacher management views
 Responsive layout system
-📌 Architecture Highlights
+
+## 📌 Architecture Highlights
+
 ✔ Modular folder structure (production-style)
 ✔ Config-driven sidebar system
 ✔ Scalable role-based UI logic
@@ -93,24 +98,27 @@ Responsive layout system
 ✔ Next.js App Router best practices
 🎯 Purpose of This Project
 
-This project was built to demonstrate:
+## This project was built to demonstrate:
 
 Real-world dashboard UI architecture
 Scalable frontend design patterns
 Role-based interface simulation
 Clean Next.js project structuring
 Production-like frontend engineering skills
-📷 Screenshots
 
-(Add screenshots here)
+## 📷 Screenshots
 
-🛠️ Future Improvements
+<!-- (Add screenshots here) -->
+
+## 🛠️ Future Improvements
+
 Backend integration (auth + real role system)
 Database-driven dynamic data
 API layer for students/teachers
 Authentication (NextAuth / JWT)
 Server-side role protection (middleware)
-👨‍💻 Author
+
+## 👨‍💻 Author
 
 Shaikh Abu Amer
 Frontend Developer
